@@ -1,0 +1,10 @@
+/* Global app layout overrides */
+.page{min-height:100dvh;display:flex;flex-direction:column;background:#f9fafb;color:#111827}
+.main-content{flex:1;padding:1rem}
+@media(min-width:900px){.main-content{padding:1.25rem}}
+
+/* Utility */
+.container{max-width:1200px;margin:0 auto;padding:0 1rem}
+
+/* Buttons baseline */
+button{border-radius:10px}

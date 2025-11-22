@@ -1,0 +1,15 @@
+/* About page styles */
+.about-container{max-width:1100px;margin:0 auto;padding:1.5rem}
+.about-hero{text-align:center;margin-bottom:1.5rem}
+.about-subtitle{color:#555}
+.owner-section .owner-card{background:#fff;border:1px solid #eee;border-radius:12px;padding:1.25rem}
+.owner-icon{font-size:2rem;margin-bottom:.5rem}
+.owner-details{display:grid;gap:.5rem;margin:1rem 0}
+.detail-item{display:flex;gap:.5rem}
+.contact-info{margin-top:1rem}
+.contact-number{display:inline-block;margin-top:.5rem;text-decoration:none;color:#2563eb}
+.advantages-section{margin-top:2rem}
+.advantages-grid{display:grid;gap:1rem;grid-template-columns:1fr}
+@media(min-width:800px){.advantages-grid{grid-template-columns:repeat(3,1fr)}}
+.advantage-card{background:#f8fafc;border:1px solid #eef2f7;border-radius:12px;padding:1rem}
+.story-section{margin-top:2rem}
